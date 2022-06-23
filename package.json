@@ -1,0 +1,26 @@
+{
+  "name": "platzifood",
+  "version": "1.0.0",
+  "description": "Temario y recursos de Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server public",
+    "build": "npx tailwindcss-cli@latest build css/tailwind.css -o public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanjosbg/tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanjosbg/tailwind/issues"
+  },
+  "homepage": "https://github.com/juanjosbg/tailwind#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^3.1.4"
+  }
+}

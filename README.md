@@ -4,6 +4,9 @@ Temario y recursos de Tailwind CSS
 ## Doc
 [Tailwind](https://tailwindcss.com/docs/installation)
 
+## Para correr el programa
+- `npm run start`
+
 ## Dependencias
 - `npm init -y`
 - `npm install tailwindcss autoprefixer postcss-cli`
