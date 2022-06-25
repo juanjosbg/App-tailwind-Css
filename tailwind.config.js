@@ -6,6 +6,15 @@ module.exports = {
       display: ['Merriweather', 'serif'],
       body: ['Graphik', 'sans-serif'],
     },
+    container: {
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '4rem',
+        xl: '5rem',
+        '2xl': '6rem',
+      },
+    },
     extend: {
       colors: {
         'color1': '#5F7161',
@@ -15,10 +24,16 @@ module.exports = {
         'color5': '#E0D8B0',
         'color6': '#F8ECD1',
       },
-      margin: {
-        'mt': '6rem',
-        'mb': '6em',
+      espacio: {
+        'mg-top': '6rem',
+        'mg-dow': '6rem',
       },
+      columns: {
+        '4xs': '14rem',
+      },
+      boxShadow: {
+        '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
+      }
     },
   },
   plugins: [],
