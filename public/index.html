@@ -10,18 +10,62 @@
     <link rel="stylesheet" href="css/style.css">
     <!--  -->
     <link rel="stylesheet" href="/css/tailwind.css">
+    <!--  -->
+    <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
 
 </head>
 
 <body>
-    <div class="px-2 bg-black text-white flex justify-between items-center">
-        <div class="">
-            <img src="/multimedia/logo/log-drinking.jpg" alt="" class="h-16 py-1 w-100 ml-5">
-        </div>
-        <div class="text-3xl mr-5 pb-1">&equiv;</div>
-    </div>
+    <div class="w-full bg-">
+        <div class="flex justify-between text-white font-light pl-4 p-1" style=" background:#1b7e84;">
+            <div class=" font-light">&odsold; Encuentra tu Store &VerticalLine;
+                Cotizaciones
+            </div>
 
+            <div class="font-thin pr-20" style="color:#115053; font-weight:400;">¡Recoge en tienda sin ningún costo!
+            </div>
+        </div>
+
+        <nav
+            class="px-2 flex bg-black text-white items-center justify-between flex-wrap overflow-hidden ring-slate-900 p-2">
+
+            <div class="items-center mr-6">
+                <img src="/multimedia/logo/log-drinking.jpg" alt="" class="h-16 py-1 w-100 ml-5">
+            </div>
+
+            <div class="w-full block flex-grow lg:flex lg:items-left lg:w-auto sm:items-center">
+                <div class="text-sm lg:flex-grow">
+                    <a href="#responsive-header"
+                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                        Productos
+                    </a>
+                    <a href="#responsive-header"
+                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                        Para Regalar
+                    </a>
+                    <a href="#responsive-header"
+                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+                        Ofertas
+                    </a>
+                </div>
+
+            </div>
+        </nav>
+        <div class="flex justify-center font-medium p-1" style="background: #1f1f1f;">
+            <div class="pl-2 pr-2 mb-1 text-white"><span class="font-body pl-1" style="color: #1eaeb8;">Disponible para
+                    recoger en 2 horas</span></div>
+            <div class="pl-2 pr-2 mb-1 text-white">Recoger en tienda<span class="font-body pl-1"
+                    style="color: #1eaeb8;">Cali, Norte</span></div>
+        </div>
+    </div>
+    <!--  -->
     <section class="bg-slate-400 p-6">
+        <div class="font-normal pl-4 text-3xl mb-4 mt-2"><span class="font-bold pl-2 text-4xl"
+                style="color:#1b7e84;">Nuestros</span> tragos más pedidos
+        </div>
+        <!-- 1 stant -->
         <div class="flex flex-row justify-around">
             <div class="bg-transparent mx-4 mb-8">
                 <div class="mt-4 pl-1 pb-4">
@@ -29,7 +73,7 @@
                         <img class="w-full rounded-lg img-port" alt=""
                             src="https://images.unsplash.com/photo-1590064275032-8bd62d46d008?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80">
                     </div>
-    
+
                     <div class="relative rounded-lg mx-2 p-2 shadow-lg bg-white w-auto -mt-16">
                         <h2 class="text-3xl text-center uppercase font-semibold text-gray-800 mb-2 pt-4">mojitos</h2>
                         <p class="text-gray-700 leading-snug font-light ml-3">El Mojito tiene distintas variaciones de
@@ -37,7 +81,7 @@
                             mezcla se puede adicionar frutas que se complementen con citricos, como lo es fresa, mango,
                             lychee, lulo entre otras.
                         </p>
-    
+
                         <div class="text-gray-700 mt-2 p-2 mx-4">
                             <ul class="font-thin ">Ingredientes
                                 <li class="ml-2">60 ml Ron</li>
@@ -46,11 +90,12 @@
                                 <li class="ml-2">14 hojas de hierbabuena</li>
                             </ul>
                         </div>
-    
+
                         <div class="text-sm font-light text-gray-700 ml-3 mt-2">COP 34,000.00</div>
                         <div class="text-sm text-gray-600 leading-snug mb-3">
-                            <span class="text-yellow-400 font-semibold ml-3 mr-2 mt-1">&starf;&starf;&starf;&starf;&star;</span>
-                            / 46 reseñas 
+                            <span
+                                class="text-yellow-400 font-semibold ml-3 mr-2 mt-1">&starf;&starf;&starf;&starf;&star;</span>
+                            / 46 reseñas
                         </div>
                     </div>
                 </div>
@@ -62,7 +107,7 @@
                         <img class="w-full rounded-lg img-port" alt=""
                             src="https://images.unsplash.com/photo-1582269438702-578efa319292?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80">
                     </div>
-    
+
                     <div class="relative rounded-lg mx-2 p-2 shadow-lg bg-white w-auto -mt-16">
                         <h2 class="text-3xl text-center uppercase font-semibold text-gray-800 mb-2 pt-4">mojitos</h2>
                         <p class="text-gray-700 leading-snug font-light ml-3">El Mojito tiene distintas variaciones de
@@ -70,7 +115,7 @@
                             mezcla se puede adicionar frutas que se complementen con citricos, como lo es fresa, mango,
                             lychee, lulo entre otras.
                         </p>
-    
+
                         <div class="text-gray-700 mt-2 p-2 mx-4">
                             <ul class="font-thin ">Ingredientes
                                 <li class="ml-2">60 ml Ron</li>
@@ -79,11 +124,12 @@
                                 <li class="ml-2">14 hojas de hierbabuena</li>
                             </ul>
                         </div>
-    
+
                         <div class="text-sm font-light text-gray-700 ml-3 mt-2">COP 34,000.00</div>
                         <div class="text-sm text-gray-600 leading-snug mb-3">
-                            <span class="text-yellow-400 font-semibold ml-3 mr-2 mt-1">&starf;&starf;&starf;&starf;&star;</span>
-                            / 46 reseñas 
+                            <span
+                                class="text-yellow-400 font-semibold ml-3 mr-2 mt-1">&starf;&starf;&starf;&starf;&star;</span>
+                            / 46 reseñas
                         </div>
                     </div>
                 </div>
@@ -95,7 +141,7 @@
                         <img class="w-full rounded-lg img-port" alt=""
                             src="https://images.unsplash.com/photo-1594026290778-b00634357f20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60">
                     </div>
-    
+
                     <div class="relative rounded-lg mx-2 p-2 shadow-lg bg-white w-auto -mt-16">
                         <h2 class="text-3xl text-center uppercase font-semibold text-gray-800 mb-2 pt-4">mojitos</h2>
                         <p class="text-gray-700 leading-snug font-light ml-3">El Mojito tiene distintas variaciones de
@@ -103,7 +149,7 @@
                             mezcla se puede adicionar frutas que se complementen con citricos, como lo es fresa, mango,
                             lychee, lulo entre otras.
                         </p>
-    
+
                         <div class="text-gray-700 mt-2 p-2 mx-4">
                             <ul class="font-thin ">Ingredientes
                                 <li class="ml-2">60 ml Ron</li>
@@ -112,118 +158,239 @@
                                 <li class="ml-2">14 hojas de hierbabuena</li>
                             </ul>
                         </div>
-    
+
                         <div class="text-sm font-light text-gray-700 ml-3 mt-2">COP 34,000.00</div>
                         <div class="text-sm text-gray-600 leading-snug mb-3">
-                            <span class="text-yellow-400 font-semibold ml-3 mr-2 mt-1">&starf;&starf;&starf;&starf;&star;</span>
-                            / 46 reseñas 
+                            <span
+                                class="text-yellow-400 font-semibold ml-3 mr-2 mt-1">&starf;&starf;&starf;&starf;&star;</span>
+                            / 46 reseñas
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 2 Stand -->
+        <div class="flex flex-row justify-around">
+            <div class="bg-transparent mx-4 mb-8">
+                <div class="mt-4 pl-1 pb-4">
+                    <div>
+                        <img class="w-full rounded-lg img-port" alt=""
+                            src="https://images.unsplash.com/photo-1572590016064-3e6ae9c04947?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60">
+                    </div>
+
+                    <div class="relative rounded-lg mx-2 p-2 shadow-lg bg-white w-auto -mt-16">
+                        <h2 class="text-3xl text-center uppercase font-semibold text-gray-800 mb-2 pt-4">mojitos</h2>
+                        <p class="text-gray-700 leading-snug font-light ml-3">El Mojito tiene distintas variaciones de
+                            sabores, ya que a la
+                            mezcla se puede adicionar frutas que se complementen con citricos, como lo es fresa, mango,
+                            lychee, lulo entre otras.
+                        </p>
+
+                        <div class="text-gray-700 mt-2 p-2 mx-4">
+                            <ul class="font-thin ">Ingredientes
+                                <li class="ml-2">60 ml Ron</li>
+                                <li class="ml-2">15ml Jarabe de azúcar (Almíbar)</li>
+                                <li class="ml-2">15 ml de zumo de limón</li>
+                                <li class="ml-2">14 hojas de hierbabuena</li>
+                            </ul>
+                        </div>
+
+                        <div class="text-sm font-light text-gray-700 ml-3 mt-2">COP 34,000.00</div>
+                        <div class="text-sm text-gray-600 leading-snug mb-3">
+                            <span
+                                class="text-yellow-400 font-semibold ml-3 mr-2 mt-1">&starf;&starf;&starf;&starf;&star;</span>
+                            / 46 reseñas
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="bg-transparent mx-4 mb-8">
+                <div class="mt-4 pl-1 pb-4">
+                    <div>
+                        <img class="w-full rounded-lg img-port" alt=""
+                            src="https://images.unsplash.com/photo-1527761939622-9119094630cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60">
+                    </div>
+
+                    <div class="relative rounded-lg mx-2 p-2 shadow-lg bg-white w-auto -mt-16">
+                        <h2 class="text-3xl text-center uppercase font-semibold text-gray-800 mb-2 pt-4">mojitos</h2>
+                        <p class="text-gray-700 leading-snug font-light ml-3">El Mojito tiene distintas variaciones de
+                            sabores, ya que a la
+                            mezcla se puede adicionar frutas que se complementen con citricos, como lo es fresa, mango,
+                            lychee, lulo entre otras.
+                        </p>
+
+                        <div class="text-gray-700 mt-2 p-2 mx-4">
+                            <ul class="font-thin ">Ingredientes
+                                <li class="ml-2">60 ml Ron</li>
+                                <li class="ml-2">15ml Jarabe de azúcar (Almíbar)</li>
+                                <li class="ml-2">15 ml de zumo de limón</li>
+                                <li class="ml-2">14 hojas de hierbabuena</li>
+                            </ul>
+                        </div>
+
+                        <div class="text-sm font-light text-gray-700 ml-3 mt-2">COP 34,000.00</div>
+                        <div class="text-sm text-gray-600 leading-snug mb-3">
+                            <span
+                                class="text-yellow-400 font-semibold ml-3 mr-2 mt-1">&starf;&starf;&starf;&starf;&star;</span>
+                            / 46 reseñas
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="bg-transparent mx-4 mb-8">
+                <div class="mt-4 pl-1 pb-4">
+                    <div>
+                        <img class="w-full rounded-lg img-port" alt=""
+                            src="https://images.unsplash.com/photo-1578664182508-0298cbe8a169?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60">
+                    </div>
+
+                    <div class="relative rounded-lg mx-2 p-2 shadow-lg bg-white w-auto -mt-16">
+                        <h2 class="text-3xl text-center uppercase font-semibold text-gray-800 mb-2 pt-4">mojitos</h2>
+                        <p class="text-gray-700 leading-snug font-light ml-3">El Mojito tiene distintas variaciones de
+                            sabores, ya que a la
+                            mezcla se puede adicionar frutas que se complementen con citricos, como lo es fresa, mango,
+                            lychee, lulo entre otras.
+                        </p>
+
+                        <div class="text-gray-700 mt-2 p-2 mx-4">
+                            <ul class="font-thin ">Ingredientes
+                                <li class="ml-2">60 ml Ron</li>
+                                <li class="ml-2">15ml Jarabe de azúcar (Almíbar)</li>
+                                <li class="ml-2">15 ml de zumo de limón</li>
+                                <li class="ml-2">14 hojas de hierbabuena</li>
+                            </ul>
+                        </div>
+
+                        <div class="text-sm font-light text-gray-700 ml-3 mt-2">COP 34,000.00</div>
+                        <div class="text-sm text-gray-600 leading-snug mb-3">
+                            <span
+                                class="text-yellow-400 font-semibold ml-3 mr-2 mt-1">&starf;&starf;&starf;&starf;&star;</span>
+                            / 46 reseñas
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!--  -->
-        <div class="flex flex-row justify-around">
-            <div class="bg-transparent mx-4 mb-8">
-                <div class="mt-4 pl-1 pb-4">
-                    <div>
-                        <img class="w-full rounded-lg img-port" alt=""
-                            src="https://images.unsplash.com/photo-1590064275032-8bd62d46d008?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80">
-                    </div>
-    
-                    <div class="relative rounded-lg mx-2 p-2 shadow-lg bg-white w-auto -mt-16">
-                        <h2 class="text-3xl text-center uppercase font-semibold text-gray-800 mb-2 pt-4">mojitos</h2>
-                        <p class="text-gray-700 leading-snug font-light ml-3">El Mojito tiene distintas variaciones de
-                            sabores, ya que a la
-                            mezcla se puede adicionar frutas que se complementen con citricos, como lo es fresa, mango,
-                            lychee, lulo entre otras.
-                        </p>
-    
-                        <div class="text-gray-700 mt-2 p-2 mx-4">
-                            <ul class="font-thin ">Ingredientes
-                                <li class="ml-2">60 ml Ron</li>
-                                <li class="ml-2">15ml Jarabe de azúcar (Almíbar)</li>
-                                <li class="ml-2">15 ml de zumo de limón</li>
-                                <li class="ml-2">14 hojas de hierbabuena</li>
-                            </ul>
-                        </div>
-    
-                        <div class="text-sm font-light text-gray-700 ml-3 mt-2">COP 34,000.00</div>
-                        <div class="text-sm text-gray-600 leading-snug mb-3">
-                            <span class="text-yellow-400 font-semibold ml-3 mr-2 mt-1">&starf;&starf;&starf;&starf;&star;</span>
-                            / 46 reseñas 
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--  -->
-            <div class="bg-transparent mx-4 mb-8">
-                <div class="mt-4 pl-1 pb-4">
-                    <div>
-                        <img class="w-full rounded-lg img-port" alt=""
-                            src="https://images.unsplash.com/photo-1582269438702-578efa319292?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80">
-                    </div>
-    
-                    <div class="relative rounded-lg mx-2 p-2 shadow-lg bg-white w-auto -mt-16">
-                        <h2 class="text-3xl text-center uppercase font-semibold text-gray-800 mb-2 pt-4">mojitos</h2>
-                        <p class="text-gray-700 leading-snug font-light ml-3">El Mojito tiene distintas variaciones de
-                            sabores, ya que a la
-                            mezcla se puede adicionar frutas que se complementen con citricos, como lo es fresa, mango,
-                            lychee, lulo entre otras.
-                        </p>
-    
-                        <div class="text-gray-700 mt-2 p-2 mx-4">
-                            <ul class="font-thin ">Ingredientes
-                                <li class="ml-2">60 ml Ron</li>
-                                <li class="ml-2">15ml Jarabe de azúcar (Almíbar)</li>
-                                <li class="ml-2">15 ml de zumo de limón</li>
-                                <li class="ml-2">14 hojas de hierbabuena</li>
-                            </ul>
-                        </div>
-    
-                        <div class="text-sm font-light text-gray-700 ml-3 mt-2">COP 34,000.00</div>
-                        <div class="text-sm text-gray-600 leading-snug mb-3">
-                            <span class="text-yellow-400 font-semibold ml-3 mr-2 mt-1">&starf;&starf;&starf;&starf;&star;</span>
-                            / 46 reseñas 
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--  -->
-            <div class="bg-transparent mx-4 mb-8">
-                <div class="mt-4 pl-1 pb-4">
-                    <div>
-                        <img class="w-full rounded-lg img-port" alt=""
-                            src="https://images.unsplash.com/photo-1594026290778-b00634357f20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60">
-                    </div>
-    
-                    <div class="relative rounded-lg mx-2 p-2 shadow-lg bg-white w-auto -mt-16">
-                        <h2 class="text-3xl text-center uppercase font-semibold text-gray-800 mb-2 pt-4">mojitos</h2>
-                        <p class="text-gray-700 leading-snug font-light ml-3">El Mojito tiene distintas variaciones de
-                            sabores, ya que a la
-                            mezcla se puede adicionar frutas que se complementen con citricos, como lo es fresa, mango,
-                            lychee, lulo entre otras.
-                        </p>
-    
-                        <div class="text-gray-700 mt-2 p-2 mx-4">
-                            <ul class="font-thin ">Ingredientes
-                                <li class="ml-2">60 ml Ron</li>
-                                <li class="ml-2">15ml Jarabe de azúcar (Almíbar)</li>
-                                <li class="ml-2">15 ml de zumo de limón</li>
-                                <li class="ml-2">14 hojas de hierbabuena</li>
-                            </ul>
-                        </div>
-    
-                        <div class="text-sm font-light text-gray-700 ml-3 mt-2">COP 34,000.00</div>
-                        <div class="text-sm text-gray-600 leading-snug mb-3">
-                            <span class="text-yellow-400 font-semibold ml-3 mr-2 mt-1">&starf;&starf;&starf;&starf;&star;</span>
-                            / 46 reseñas 
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class=" mg-top mt-5 rounded-full">
+            <img src="/multimedia/img/subs_novili.jpg" alt="">
         </div>
+        <!--  -->
+        <div class="mt-10">
+            <div class="font-normal pl-4 text-3xl"><span class="font-bold pl-2 text-4xl"
+                    style="color:#1b7e84;">Ocasiones para regalar</span>
+            </div>
+
+            <div class="items-center pl-10 py-4">
+                <div class="font-light text-xl mt-10 ml-2"><span class="font-bold" style="color:#27b0b7;">Ofertas</span>
+                    especiales
+                </div>
+
+                <div class="ful-img" id="fulImgBox">
+                    <img class="w-100 h-56 rounded-md" id="fulImg"
+                        src="https://images.unsplash.com/photo-1610631787813-9eeb1a2386cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                        alt="van" />
+                    <span onclick="closeImg()">X</span>
+                    <!--  Falta por implementarlos
+                        <button class="y-4 h-12 w-auto px-4 bg-gray-600 hover:bg-gray-800 text-white font-bold rounded-full shadow-md focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
+                        type="button" id="btnRetrocede" value="Atras"> &lt;
+                    </button>
+
+                    <button class="y-4 h-12 w-auto px-4 bg-gray-600 hover:bg-gray-800 text-white font-bold rounded-full shadow-md focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
+                        type="button" id="btnAdelanta" value="Siguiente"> &gt;
+                    </button> -->
+                </div>
+
+                <div class="carousel pt-2 img-gallery"
+                    data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": false, "pageDots": false }'>
+                    <div class="carousel-cell p-1">
+                        <img class="w-100 h-56 rounded-md carousel-cell-image" onclick="openFulImage(this.src)"
+                            src="https://images.unsplash.com/photo-1610631787813-9eeb1a2386cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                            alt="promocion de vinos" />
+                    </div>
+
+                    <div class="carousel-cell p-1">
+                        <img class="w-100 h-56 rounded-md carousel-cell-image" onclick="openFulImage(this.src)"
+                            src="https://images.unsplash.com/photo-1601731739069-adc5c0cdc4af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+                            alt="promocion de vinos" />
+                    </div>
+
+                    <div class="carousel-cell p-1">
+                        <img class="w-100 h-56 rounded-md carousel-cell-image" onclick="openFulImage(this.src)"
+                            src="https://images.unsplash.com/photo-1568446129858-a1fe87f33d04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                            alt="promocion de vinos" />
+                    </div>
+
+                    <div class="carousel-cell p-1">
+                        <img class="w-100 h-56 rounded-md carousel-cell-image" onclick="openFulImage(this.src)"
+                            src="https://images.unsplash.com/photo-1595506071728-08ef92e2dc72?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+                            alt="promocion de vinos" />
+                    </div>
+
+                    <div class="carousel-cell p-1">
+                        <img class="w-100 h-56 rounded-md carousel-cell-image" onclick="openFulImage(this.src)"
+                            src="https://images.unsplash.com/photo-1582673937754-8d0cfed5dcc9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTF8czIyYjJPSGItT0l8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60"
+                            alt="promocion de vinos" />
+                    </div>
+
+                    <div class="carousel-cell p-1">
+                        <img class="w-100 h-56 rounded-md carousel-cell-image" onclick="openFulImage(this.src)"
+                            src="https://images.unsplash.com/photo-1584916201218-f4242ceb4809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                            alt="promocion de vinos" />
+                    </div>
+
+                    <div class="carousel-cell p-1">
+                        <img class="w-100 h-56 rounded-md carousel-cell-image" onclick="openFulImage(this.src)"
+                            src="https://images.unsplash.com/photo-1598397271395-bdb52a0ea523?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                            alt="promocion de vinos" />
+                    </div>
+
+                    <div class="carousel-cell p-1">
+                        <img class="w-100 h-56 rounded-md carousel-cell-image" onclick="openFulImage(this.src)"
+                            src="https://images.unsplash.com/photo-1609951651973-03b4c838b0d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                            alt="promocion de vinos" />
+                    </div>
+
+                    <div class="carousel-cell p-1">
+                        <img class="w-100 h-56 rounded-md carousel-cell-image" onclick="openFulImage(this.src)"
+                            src="https://images.unsplash.com/photo-1588867832678-708d88fda0bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+                            alt="promocion de vinos" />
+                    </div>
+                </div>
+
+                <div class="flex justify-center">
+                    <div class="font-light text-xl pr-5 mt-6">
+                        <ul><span class="font-bold text-center" style="color:#27b0b7;">Ocasiones</span> para regalar
+                            <li class="pl-2 mt-7 leading-snug mb-0"><span style="color:#27b0b7;">&orslope;</span>
+                                Cumpleaños</li>
+                            <li class="pl-2 leading-snug"><span class="font-semibold"
+                                    style="color:#27b0b7;">&orslope;</span> Fechas especiales</li>
+                            <li class="pl-2 leading-snug"><span class="font-semibold"
+                                    style="color:#27b0b7;">&orslope;</span> Reunión de negocios</li>
+                            <li class="pl-2 leading-snug"><span class="font-semibold"
+                                    style="color:#27b0b7;">&orslope;</span> Fiesta con amigos</li>
+                            <li class="pl-2 leading-snug"><span class="font-semibold"
+                                    style="color:#27b0b7;">&orslope;</span> Para sorprender</li>
+                        </ul>
+                    </div>
+                    <div class="">
+                        <img class="pt-3 h-60"
+                            src="https://dislicoresqa.vteximg.com.br/arquivos/arma_tu_ancheta_b2c.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
     </section>
+    <script src="/Gallery.js"></script>
+    <script src="/path/to/flickity.pkgd.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
 </body>
 
 </html>
